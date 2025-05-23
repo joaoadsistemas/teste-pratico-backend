@@ -1,0 +1,48 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ Sonarlint plugin working files
+.idea/sonarlint/
+
+# IDE-specific files
+*.DS_Store
+*.vscode/
+*.swp
+*~
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Compiled class files
+target/
+out/
+bin/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+tmp/
+
+# Maven specific
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+
+# Spring Boot specific
+spring.log
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
