@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  # Apenas a aplicação Spring Boot
+  credit-simulator-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: credit-simulator
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
