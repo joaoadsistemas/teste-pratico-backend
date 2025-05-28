@@ -32,6 +32,14 @@ public class ValidationException extends RuntimeException {
         );
     }
 
+    public static ValidationException invalidMaxAge(int age) {
+        return new ValidationException(
+                "birthDate",
+                age,
+                "Idade inválida. Por favor, verifique a data de nascimento."
+        );
+    }
+
     public static ValidationException invalidLoanAmount(Number amount) {
         return new ValidationException(
                 "loanAmount",

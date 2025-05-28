@@ -126,11 +126,7 @@ public class SimulationService {
         }
 
         if (age > 120) {
-            throw new ValidationException(
-                    "birthDate",
-                    age,
-                    "Idade inválida. Por favor, verifique a data de nascimento."
-            );
+            throw ValidationException.invalidMaxAge(age);
         }
     }
 
