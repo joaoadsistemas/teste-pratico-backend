@@ -1,7 +1,4 @@
-version: '3.8'
-
 services:
-  # Apenas a aplicação Spring Boot
   credit-simulator-api:
     build:
       context: .
