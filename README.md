@@ -14,7 +14,7 @@ API para simulação de empréstimos bancários com cálculo de parcelas, juros 
 
 ```bash
 # Clonar o repositório
-git clone <https://github.com/joaoadsistemas/teste-pratico-backend.git>
+git clone https://github.com/joaoadsistemas/teste-pratico-backend.git
 cd credit-simulator
 
 # Instalar dependências e executar
